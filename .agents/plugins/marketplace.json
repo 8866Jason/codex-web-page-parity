@@ -1,0 +1,20 @@
+{
+  "name": "web-page-parity-plugins",
+  "interface": {
+    "displayName": "Web Page Parity Plugins"
+  },
+  "plugins": [
+    {
+      "name": "web-page-parity",
+      "source": {
+        "source": "local",
+        "path": "./plugins/web-page-parity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "web-page-parity",
+  "version": "0.1.1",
+  "description": "Shareable Codex plugin for pixel-parity, screenshot comparison, and visual QA workflows.",
+  "keywords": [
+    "codex",
+    "plugin",
+    "visual-regression",
+    "pixel-parity",
+    "ui-qa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Web Page Parity",
+    "shortDescription": "Match live pages to screenshots, PDFs, and mockups with repeatable visual evidence.",
+    "longDescription": "Packages a reusable visual parity workflow for comparing live pages against screenshots, PDFs, Figma exports, and browser comments using deterministic captures, side-by-side reports, OCR-assisted typography checks, and privacy-preserving capture defaults.",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Web Page Parity to make this landing page match the provided PNG exactly.",
+      "Use Web Page Parity to compare the current page against this screenshot and report the remaining mismatches.",
+      "Use Web Page Parity to verify desktop and mobile visual parity before release."
+    ],
+    "brandColor": "#0F766E"
+  }
+}

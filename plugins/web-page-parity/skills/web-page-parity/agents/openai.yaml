@@ -1,0 +1,7 @@
+interface:
+  display_name: "Web Page Parity"
+  short_description: "Compare live pages against screenshots, PDFs, and mockups with repeatable visual evidence."
+  default_prompt: "Use Web Page Parity to inspect, compare, edit, and verify this page against the provided reference."
+
+policy:
+  allow_implicit_invocation: true
